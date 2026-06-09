@@ -27,27 +27,85 @@
 ---
 
 ## `$ whoami`
-
-```ts
-const juanpablo = {
-  nombre:     "Juanpablo Enmanuel Gómez Domínguez",
-  rol:        "Software Engineer · Full-Stack Developer · Arquitecto de Sistemas",
-  ubicacion:  "Villa de Álvarez, Colima, México 🇲🇽",
-  educacion:  "ISC — TecNM Campus Colima (8vo Semestre, 2022–Actualidad)",
-  promedio:   "> 90",
-  contacto:   "22460290@colima.tecnm.mx",
-
-  enfoque: [
-    "Clean Architecture",
-    "Sistemas escalables de producción",
-    "Accesibilidad e inclusión digital",
-    "DevOps & automatización de flujos",
-  ],
-
-  metodologías: ["PMBOK", "CMMI", "MoProSoft", "Scrum", "Git Flow"],
-
-  actualmente: "Preparando NAVIA para CIITA 2026 — Manzanillo, Colima",
-};
+ 
+```typescript
+/**
+ * @author   Juanpablo Enmanuel Gómez Domínguez
+ * @alias    TacosAlPastorMX
+ * @version  8vo Semestre · ISC · TecNM Campus Colima
+ * @license  MIT — construido con precisión, entregado con propósito
+ */
+ 
+class JuanpabloGomez extends SoftwareEngineer {
+ 
+  // ─── Identidad ──────────────────────────────────────────────────────────────
+  readonly nombre    = "Juanpablo Enmanuel Gómez Domínguez";
+  readonly alias     = "TacosAlPastorMX";
+  readonly ubicacion = "Villa de Álvarez, Colima, México 🇲🇽";
+  readonly contacto  = {
+    email    : "22460290@colima.tecnm.mx",
+    github   : "github.com/TacosAlPastorMX",
+    idiomas  : ["Español (nativo)", "Inglés (intermedio técnico)"],
+  };
+ 
+  // ─── Educación ──────────────────────────────────────────────────────────────
+  readonly educacion = {
+    carrera  : "Ingeniería en Sistemas Computacionales",
+    campus   : "TecNM Campus Colima (ITC)",
+    periodo  : "2022 – Actualidad",
+    semestre : 8,
+    promedio : 90, // sobre 100 — sin bajar la guardia
+    tecnico  : "Técnico en Programación · CBTis 157 (2019–2022)",
+  };
+ 
+  // ─── Roles & Fortalezas ─────────────────────────────────────────────────────
+  readonly roles = [
+    "Full-Stack Developer",
+    "Arquitecto de Sistemas",
+    "Lead Developer",
+    "DevOps Engineer (cuando nadie más quiere serlo 🔧)",
+  ] as const;
+ 
+  readonly superpoderes = {
+    diseño       : "Clean Architecture — de la idea al producto sin deuda técnica",
+    backend      : "Laravel · FastAPI · Node.js · Spring Boot",
+    frontend     : "Astro · Tailwind · Alpine.js · Three.js",
+    mobile       : "Flutter + Clean Arch con Riverpod",
+    devops       : "Docker · Linux · Git Flow · CI/CD",
+    vision       : "MediaPipe · OpenCV · TFLite · On-Device ML",
+    metodologías : ["PMBOK", "CMMI", "MoProSoft", "Scrum"],
+  };
+ 
+  // ─── Estado Actual ──────────────────────────────────────────────────────────
+  readonly estadoActual = {
+    proyecto  : "NAVIA — Sistema de Navegación Inteligente Accesible",
+    contexto  : "Preparando para CIITA 2026 · Manzanillo, Colima 🏆",
+    sector    : "Inclusión y Equidad Digital",
+    stack     : "Flutter · Firebase · TFLite · Dijkstra · WCAG 2.1",
+    buscando  : "Retos reales, equipos serios, código que importe",
+  };
+ 
+  // ─── Filosofía ──────────────────────────────────────────────────────────────
+  get filosofia(): string {
+    return `
+      No escribo código para que funcione.
+      Lo escribo para que cualquiera lo entienda,
+      lo mantenga y lo escale — incluyendo yo mismo
+      seis meses después.
+    `;
+  }
+ 
+  // ─── Fun Facts ──────────────────────────────────────────────────────────────
+  readonly funFacts = [
+    "Llevo operaciones reales de producción desde 2023 🏭",
+    "Inventé un sistema CMYK matricial propio antes de graduarme 🎨",
+    "Mi primer ERP corrió en una papelería — ahora corre en un taller mecánico 🔩",
+    "Competí en InnovaTecNM 2026 y llegué al CIITA sin rendirme 🚀",
+    "Sí, mi alias es TacosAlPastorMX — las prioridades son las prioridades 🌮",
+  ];
+}
+ 
+export default new JuanpabloGomez();
 ```
 
 ---
