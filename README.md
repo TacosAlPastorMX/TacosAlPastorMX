@@ -279,7 +279,7 @@ App nativa Electron presentada en la Feria Profesiográfica 2026 ante estudiante
 <tr>
 <td width="50%" valign="top">
 
-### 🎮 NEON WARFARE — FPS Web Multijugador
+### 🎮 NEON WARFARE — FPS Web Multijugador (EN DESARROLLO SOLO POR DIVERSION)
 **Battle Royale 100% en navegador**
 
 FPS multijugador en tiempo real con arquitectura autoritativa cliente-servidor. Predicción de cliente, interpolación suave y anti-cheat server-side con físicas headless.
@@ -351,37 +351,28 @@ Sistema POS completo con acceso por NIP y módulo biométrico, desplegado en tab
 ---
 
 ## 📊 GitHub Stats
-
+ 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=TacosAlPastorMX&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TacosAlPastorMX&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=TacosAlPastorMX&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TacosAlPastorMX&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 
 </div>
 
 <div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=TacosAlPastorMX&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
-
+  
+[![GitHub Streak](https://streak-stats.demolab.com?user=TacosAlPastorMX&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+ 
 </div>
 
 <div align="center">
-
+  
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=TacosAlPastorMX&theme=tokyo-night&bg_color=0D1117&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+ 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[[![trophy](https://github-profile-trophy.vercel.app/?username=TacosAlPastorMX&theme=tokyonight&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dracula)
-
-</div>
-
----
 
 ## 📍 Ubicación & Contacto
 
