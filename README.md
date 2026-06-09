@@ -389,8 +389,4 @@ Sistema POS completo con acceso por NIP y módulo biométrico, desplegado en tab
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,11,20&section=footer" width="100%"/>
 
-**"De la idea al producto, de principio a fin."**
-
-*Construido con precisión por Juanpablo Enmanuel — ITC Campus Colima · 2026*
-
 </div>
